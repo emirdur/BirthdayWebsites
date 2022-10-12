@@ -1,0 +1,45 @@
+body {
+    background-image: url(images/stars.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: none;
+}
+
+@keyframes rocket {
+    0%, 100%
+    {
+        transform: translateY(-2px);
+    } 50% {
+        transform: translateY(2px);
+    }
+
+}
+
+#rocket:hover{
+    animation: rocket 0.1s ease infinite;
+}
+
+#text {
+    color: #cc313d;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 1%;
+    font-family: 'Nunito', sans-serif;
+}
+
+#text-2 {
+    color: #f7c5cc;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 0%;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
